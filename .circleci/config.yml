@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install CocoaPods
-          command: |
-	    curl https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash -s cf
-	    pod install
+        name: Install CocoaPods
+        command: |
+	        curl https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash -s cf
+	        pod install
