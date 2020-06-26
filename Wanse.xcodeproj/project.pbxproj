@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E93D6254B25F7BA7542BEA5 /* Pods_Wanse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAA06B73B196209002AC612 /* Pods_Wanse.framework */; };
 		B6A17CD324A59006008BA02A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17CD224A59006008BA02A /* AppDelegate.swift */; };
 		B6A17CD524A59006008BA02A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17CD424A59006008BA02A /* SceneDelegate.swift */; };
 		B6A17CD724A59006008BA02A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17CD624A59006008BA02A /* ContentView.swift */; };
@@ -15,6 +16,8 @@
 		B6A17CDF24A59008008BA02A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A17CDD24A59008008BA02A /* LaunchScreen.storyboard */; };
 		B6A17CEA24A59008008BA02A /* WanseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17CE924A59008008BA02A /* WanseTests.swift */; };
 		B6A17CF524A59008008BA02A /* WanseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17CF424A59008008BA02A /* WanseUITests.swift */; };
+		B6A17D0524A60360008BA02A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17D0424A60360008BA02A /* CircleImage.swift */; };
+		B6A17D0724A604EC008BA02A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17D0624A604EC008BA02A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5A1B7A31D318DB419EC7C0B /* Pods-Wanse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wanse.release.xcconfig"; path = "Target Support Files/Pods-Wanse/Pods-Wanse.release.xcconfig"; sourceTree = "<group>"; };
 		B6A17CCF24A59006008BA02A /* Wanse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wanse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A17CD224A59006008BA02A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6A17CD424A59006008BA02A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		B6A17CF024A59008008BA02A /* WanseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A17CF424A59008008BA02A /* WanseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WanseUITests.swift; sourceTree = "<group>"; };
 		B6A17CF624A59008008BA02A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A17D0424A60360008BA02A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B6A17D0624A604EC008BA02A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CFAA06B73B196209002AC612 /* Pods_Wanse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wanse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3426AE054B5230C85EDE91 /* Pods-Wanse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wanse.debug.xcconfig"; path = "Target Support Files/Pods-Wanse/Pods-Wanse.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E93D6254B25F7BA7542BEA5 /* Pods_Wanse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B417EA00EDEB2C82E9FF25F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFAA06B73B196209002AC612 /* Pods_Wanse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6A17CC624A59006008BA02A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +100,8 @@
 				B6A17CE824A59008008BA02A /* WanseTests */,
 				B6A17CF324A59008008BA02A /* WanseUITests */,
 				B6A17CD024A59006008BA02A /* Products */,
+				DAE6FE5B927452AE05E752AB /* Pods */,
+				B417EA00EDEB2C82E9FF25F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +121,8 @@
 				B6A17CD224A59006008BA02A /* AppDelegate.swift */,
 				B6A17CD424A59006008BA02A /* SceneDelegate.swift */,
 				B6A17CD624A59006008BA02A /* ContentView.swift */,
+				B6A17D0424A60360008BA02A /* CircleImage.swift */,
+				B6A17D0624A604EC008BA02A /* MapView.swift */,
 				B6A17CD824A59008008BA02A /* Assets.xcassets */,
 				B6A17CDD24A59008008BA02A /* LaunchScreen.storyboard */,
 				B6A17CE024A59008008BA02A /* Info.plist */,
@@ -136,6 +157,15 @@
 			path = WanseUITests;
 			sourceTree = "<group>";
 		};
+		DAE6FE5B927452AE05E752AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE3426AE054B5230C85EDE91 /* Pods-Wanse.debug.xcconfig */,
+				A5A1B7A31D318DB419EC7C0B /* Pods-Wanse.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6A17CF924A59008008BA02A /* Build configuration list for PBXNativeTarget "Wanse" */;
 			buildPhases = (
+				D871DE987B5ACA40E659A501 /* [CP] Check Pods Manifest.lock */,
 				B6A17CCB24A59006008BA02A /* Sources */,
 				B6A17CCC24A59006008BA02A /* Frameworks */,
 				B6A17CCD24A59006008BA02A /* Resources */,
+				CA38F010F7CA4787804EA699 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,12 +294,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CA38F010F7CA4787804EA699 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wanse/Pods-Wanse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wanse/Pods-Wanse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wanse/Pods-Wanse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D871DE987B5ACA40E659A501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wanse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6A17CCB24A59006008BA02A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A17D0524A60360008BA02A /* CircleImage.swift in Sources */,
 				B6A17CD324A59006008BA02A /* AppDelegate.swift in Sources */,
+				B6A17D0724A604EC008BA02A /* MapView.swift in Sources */,
 				B6A17CD524A59006008BA02A /* SceneDelegate.swift in Sources */,
 				B6A17CD724A59006008BA02A /* ContentView.swift in Sources */,
 			);
@@ -432,6 +508,7 @@
 		};
 		B6A17CFA24A59008008BA02A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3426AE054B5230C85EDE91 /* Pods-Wanse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +529,7 @@
 		};
 		B6A17CFB24A59008008BA02A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A1B7A31D318DB419EC7C0B /* Pods-Wanse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
