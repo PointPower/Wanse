@@ -1,10 +1,11 @@
 version: 2.1
-jobs:
-  build-and-deploy:
-    macos:
-      xcode: 11.5
-    steps:
-      - checkout
-      - run:
-          name: Install CocoaPods
-          command: pod install
+workflow:
+  jobs:
+    build-and-deploy:
+      macos:
+        xcode: 11.5
+      steps:
+        - checkout
+        - run:
+            name: Install CocoaPods
+            command: pod install
