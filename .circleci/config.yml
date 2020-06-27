@@ -1,6 +1,6 @@
 version: 2.1
   jobs:
-    build-and-deploy:
+    build:
       macos:
         xcode: 11.5
       steps:
